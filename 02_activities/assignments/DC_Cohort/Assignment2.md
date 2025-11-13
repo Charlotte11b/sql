@@ -54,9 +54,18 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
-```
+The Employee table captures basic information of the bookstore staff, and is linked to Order_header table showing which employee processed the order, as well as the Employ_shift table which captures they shift they work.
+The Customer table captures customers data and is liked to Order_header table showing who placed the order, as well as the Customer_address tables.
+The Book table captures specific book data adn is linked Order_line table (books purchased) and Sales table (daily total sales). 
+The Order_header table captures overall order information. The Order_line table captures each individual item in an order.
+The Date table captures a full calendar table with year, month, day, quarter, week, etc. in order to ensure consistent, flexible reporting by multiple tables.
 
+Architecture that retain changes is Type 2 Slowly changing dimensions, while the architecture that overwrites address is Type 1 Slowly changing Dimension. 
+
+[View interactive version on dbdiagram.io](https://dbdiagram.io/d/6915535b6735e11170915805) 
+<img src="Bookstore Data Logical Model.png">
+
+```
 ***
 
 ## Section 2:
@@ -183,5 +192,6 @@ Consider, for example, concepts of labour, bias, LLM proliferation, moderating c
 
 
 ```
-Your thoughts...
+Very interesting read! I often neglect the huge efforts and labour that were behind every AI models too. The people who label millions of images and designing WordNet, etc. This affect our ethical and moral judgement around this and we may ignore issues like fair pay, credit and authorship and blur the line between human labour and machine intelligence. Fair pay issues often affect the already marginalized and exploited groups, such as women, lower class, rural area workers and part-time workers.
+The AI models sounds like the machine has its own intelligence and just learn on their own, but in fact humans decided the categories and the true labels. This may have built biases and politics into the datasets. This also affect the marginalized groups more because the creators or labellers' stereotypes, culture, views and biases may be built into the algorithms. The recent LLM / AI tools were often still founded on these previously developed legacy resources and further ignore fairnes and representation. When there are errors in the algorithm's classification, the AI models usually take all the blames but in fact the creators/developers should take accountability. 
 ```
