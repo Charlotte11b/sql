@@ -14,10 +14,10 @@
     * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
 
 Checklist:
-- [ ] Create a branch called `assignment-one`.
-- [ ] Ensure that the repository is public.
-- [ ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
-- [ ] Verify that the link is accessible in a private browser window.
+- [X] Create a branch called `assignment-one`.
+- [X] Ensure that the repository is public.
+- [X] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
+- [X] Verify that the link is accessible in a private browser window.
 
 If you encounter any difficulties or have questions, please don't hesitate to reach out to our team via our Slack. Our Technical Facilitators and Learning Support staff are here to help you navigate any challenges.
 
@@ -105,6 +105,10 @@ Please do not pick the exact same tables that I have already diagrammed. For exa
 	- These are the tables that are connected
 	- <img src="./images/01_farmers_market_conceptual_model.png" width="600">
 - The column names can be found in a few spots (DB Schema window in the bottom right, the Database Structure tab in the main window by expanding each table entry, at the top of the Browse Data tab in the main window)
+
+## My Submission
+[View interactive version on dbdiagram.io](https://dbdiagram.io/d/DSI-SQL-Assignment-690ac13b6735e1117047fa5b)
+<img src="Logical Data Model.png">
 
 ***
 
@@ -205,5 +209,5 @@ Consider, for example, concepts of fariness, inequality, social structures, marg
 
 
 ```
-Your thoughts...
+Database is used to store information in a very defined and structured way so for a database to be built, the developers need to put things into categories. However, information and facts that we encounter for our day-to-day lives are not easily categorizable and cannot be simply put into a limited number of boxes. It could be harmful to manually define what is "normal" when trying to put human related information into these categories and the article story is a perfect example of that. The database was built to capture a large amount of information of the population and often tries to optimize efficiency. This leads the marginalized groups to be ignored or over-policed. Another issue arising from being dependent on the database to capture "facts" is that it could be exploited by the powerful, and also lead to some valid evidence not recognized by the system. The system should be able to accept alternative proofs to ensure fairness and the full variety of how people live their lives. 
 ```
